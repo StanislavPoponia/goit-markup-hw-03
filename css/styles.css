@@ -2,6 +2,8 @@
 
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .body {
@@ -11,8 +13,14 @@
   background-color: #FFFFFF;
 }
 
-/* Header */
+.container{
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
 
+/* Header */
 .header{
   background: #FFFFFF;
 }
@@ -35,8 +43,6 @@
 }
 
 /* header-info */
-
-
 .header-menu {
   text-decoration: none
   
@@ -48,7 +54,6 @@
 }
 
 /* address info */
-
 .address{ 
   font-style: normal;
 }
@@ -77,28 +82,26 @@ color: #434455; }
 }
 
 
-/* menu-button */
-.button {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
+
+
+/* hero */
+.effective{
   text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #f4f4fd;
-  cursor: pointer;
+  background: #2E2F42;
+  margin-bottom: 120px;
 }
 
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
-  color: #ffffff;
-  cursor: pointer;
+.name-effective{
+  margin-top: 0;
+margin-bottom: 48px;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
 
+/* button first */
 .button-hero {
   display: flex;
   flex-direction: row;
@@ -116,7 +119,7 @@ color: #434455; }
 }
 
 .text-button{
-  font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -124,35 +127,17 @@ display: flex;
 align-items: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
-
 }
 
-
-.button-hero:hover,
-.button-hero:focus {
-  background: #404BBF;
+/* advances */
+.advances-section{
+  margin-bottom: 120px;
 }
 
-
-/* hero */
-
-.effective{
-  background: #2E2F42;
-
-}
- .name-effective{
-  font-weight: 700;
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
-color: #FFFFFF;
- }
-
-
- /* advances */
- .advances{
- font-weight: 500;
+ .advances{ 
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -160,6 +145,8 @@ color: #FFFFFF;
   }
 
   .advances-p{
+    margin-top: 0;
+    margin-bottom: 0;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -168,8 +155,13 @@ color: #434455;
  }
 
 /* what we are do */
+.working{
+  margin-bottom: 120px;
+}
 
 .works{
+  margin-top: 0;
+  margin-bottom: 72px;
  font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -180,11 +172,12 @@ color: #2E2F42;
 }
 
 /* Our Team */
-.team{
-  background: #F4F4FD;
+.team{ background: #F4F4FD;
 }
 
 .our-team {
+  margin-top: 0;
+  margin-bottom: 72px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -194,6 +187,8 @@ text-transform: capitalize;
 color: #2E2F42;}
 
 .name-person {
+  margin-top: 32px;
+  margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -202,9 +197,12 @@ color: #2E2F42;
 }
 
 .name-team{
+  margin-bottom: 120px;
   background-color: #FFFFFF}
 
-.position {
+.position { 
+  margin-top: 0;
+  margin-bottom: 0;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -212,7 +210,53 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+/* menu-button portfolio */
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  cursor: pointer;
+}
 
+ .button:hover,
+ .button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* portolio */
+.examples{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+  }
+  
+  .kind{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+  
+    .general{
+    text-decoration: none
+    }
+
+   .button-hero:hover,
+   .button-hero:focus {
+    background: #404BBF;
+}
 
 
 /* footer */
@@ -223,26 +267,3 @@ color: #434455;
   font-family: 'Raleway', sans-serif;
   background: #2E2F42;
 color: #ffffff;}
-
-
-/* portolio */
-
-.examples{
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
-}
-
-.kind{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  }
-
-.general{
-  text-decoration: none
-}

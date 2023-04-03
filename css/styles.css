@@ -20,9 +20,17 @@
   margin: 0 auto;
 }
 
+.nav{
+  display: flex;
+}
+
 /* Header */
 .header{
   background: #FFFFFF;
+}
+
+.header-nav{
+  display: flex;
 }
 
 .studio { 
@@ -30,6 +38,7 @@
 }
 
 .logo {
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -53,12 +62,21 @@
   color: #404bbf;
 }
 
+.menu{display: flex;}
+.menu li{ margin-right: 40px;}
+.menu li:last-child{ margin-right: 0;}
+
+
 /* address info */
 .address{ 
   font-style: normal;
 }
 
-.info{
+.address-info{
+  display: flex;
+}
+
+.info{ margin-right: 40px;
   text-decoration: none;
 font-style: normal;
 font-weight: 400;
@@ -66,6 +84,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455; }
+
 
 .info:hover,
 .info:focus{
@@ -147,11 +166,11 @@ color: #FFFFFF;
   .advances-p{
     margin-top: 0;
     margin-bottom: 0;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   color: #434455;
  }
 
 /* what we are do */

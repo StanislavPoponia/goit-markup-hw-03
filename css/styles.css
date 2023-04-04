@@ -31,6 +31,7 @@
 
 .header-nav{
   display: flex;
+  align-items: center;
 }
 
 .studio { 
@@ -38,6 +39,8 @@
 }
 
 .logo {
+  margin-top: 25.5px;
+  margin-bottom: 25.5px;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -62,7 +65,8 @@
   color: #404bbf;
 }
 
-.menu{display: flex;}
+.menu{display: flex;
+  align-items: center;}
 .menu li{ margin-right: 40px;}
 .menu li:last-child{ margin-right: 0;}
 
@@ -70,10 +74,12 @@
 /* address info */
 .address{ 
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-info{
   display: flex;
+  
 }
 
 .info{ margin-right: 40px;
@@ -84,6 +90,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455; }
+
+.tel{ margin-right: 0;}
 
 
 .info:hover,
@@ -122,6 +130,7 @@ color: #FFFFFF;
 
 /* button first */
 .button-hero {
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -153,6 +162,18 @@ color: #FFFFFF;
   margin-bottom: 120px;
 }
 
+.advances-list{
+  display: flex;
+}
+
+.advances-examples{
+  width: 264px;}
+  
+  .advances-examples{
+  margin-right: 24px;}
+ 
+  .advances-list li:last-child{ margin-right: 0;}
+
  .advances{ 
   margin-top: 0;
   margin-bottom: 8px;
@@ -173,9 +194,20 @@ color: #FFFFFF;
    color: #434455;
  }
 
+
 /* what we are do */
 .working{
   margin-bottom: 120px;
+}
+
+.works-list{
+  display: flex;
+}
+
+.Working-img{margin-right: 24px;}
+
+.works-list li:last-child{
+  margin-right: 0;
 }
 
 .works{
@@ -194,6 +226,17 @@ color: #2E2F42;
 .team{ background: #F4F4FD;
 }
 
+.all-team{
+  display: flex;
+}
+.name-team{
+  margin-right: 24px;
+}
+
+.all-team li:last-child{
+  margin-right: 0;
+}
+
 .our-team {
   margin-top: 0;
   margin-bottom: 72px;
@@ -206,6 +249,7 @@ text-transform: capitalize;
 color: #2E2F42;}
 
 .name-person {
+  text-align: center;
   margin-top: 32px;
   margin-bottom: 8px;
 font-weight: 500;
@@ -220,8 +264,9 @@ color: #2E2F42;
   background-color: #FFFFFF}
 
 .position { 
+  text-align: center;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 32px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;

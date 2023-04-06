@@ -24,10 +24,12 @@
 
 .nav{
   display: flex;
+  align-items: center;
 }
 
 /* Header */
 .header{
+  border-bottom: 1px solid #e7e9fc;
   background: #FFFFFF;
 }
 
@@ -58,6 +60,7 @@
 
 /* header-info */
 .header-menu {
+  padding: 24px 0;
   text-decoration: none
   
 }
@@ -67,7 +70,8 @@
   color: #404bbf;
 }
 
-.menu{display: flex;
+.menu{ gap: 40px;
+  display: flex;
   align-items: center;}
 .menu li{ margin-right: 40px;}
 .menu li:last-child{ margin-right: 0;}
@@ -80,6 +84,7 @@
 }
 
 .address-info{
+  gap: 40px;
   display: flex;
   
 }

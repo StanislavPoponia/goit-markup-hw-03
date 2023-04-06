@@ -20,6 +20,8 @@
   margin: 0 auto;
 }
 
+.section{padding-left: 16px;}
+
 .nav{
   display: flex;
 }
@@ -297,10 +299,8 @@ color: #434455;
 }
 
 /* portolio */
-.examples{
-    margin-top: 32px;
-    margin-bottom: 0;
-    margin-left: 16px;
+   .examples{ margin-top: 0;
+     margin-bottom:8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -308,16 +308,18 @@ color: #434455;
     color: #2E2F42;
   }
   
-  .kind{
-    margin-top: 8px;
+  .kind{  margin-top: 0;
     margin-bottom: 32px;
-    margin-left: 16px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     }
+
+   .photo{
+    margin-bottom: 32px;
+   }
   
     .general{
     text-decoration: none;

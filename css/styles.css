@@ -20,6 +20,8 @@
   margin: 0 auto;
 }
 
+img{ display: block;}
+
 .section{padding-left: 16px;}
 
 .nav{
@@ -120,6 +122,7 @@ color: #434455; }
 
 /* hero */
 .effective{
+  padding: 188px;
   text-align: center;
   background: #2E2F42;
   margin-bottom: 120px;

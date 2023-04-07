@@ -125,7 +125,6 @@ color: #434455; }
   padding: 188px 0;
   text-align: center;
   background: #2E2F42;
-  margin-bottom: 120px;
 }
 
 .name-effective{
@@ -141,6 +140,7 @@ color: #FFFFFF;
 }
 
 /* button first */
+
 .button-hero {
   display: block;
   margin: auto;
@@ -175,7 +175,6 @@ color: #FFFFFF;
 /* advances */
 .advances-section{
   padding: 120px 0;
-  margin-bottom: 120px;
 }
 
 .advances-list{ 

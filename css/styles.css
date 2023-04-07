@@ -305,8 +305,11 @@ color: #434455;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 12px 24px;
   color: #4d5ae5;
   background: #f4f4fd;
+  border: 1px solid #e7e9fc;
   cursor: pointer;
 }
 
@@ -314,10 +317,17 @@ color: #434455;
  .button:focus {
   background-color: #404bbf;
   color: #ffffff;
+  border: 1px solid transparent;
   cursor: pointer;
 }
 
 /* portolio */
+
+.hero-section{
+  padding: 96px 120px;
+}
+
+
    .examples{ margin-top: 0;
      margin-bottom:8px;
     font-weight: 500;
@@ -354,12 +364,9 @@ color: #434455;
   display: flex;
   margin-top: 96px;
   margin-bottom: 72px;
-  
-  }
-
-.button{
-  margin-right: 24px;
+  gap: 24px;
 }
+
 
 .flex{
   display: flex;

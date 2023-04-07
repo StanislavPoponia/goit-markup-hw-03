@@ -241,14 +241,13 @@ color: #2E2F42;
 }
 
 /* Our Team */
-.team{ background: #F4F4FD;
+.team{   padding: 120px 0 ;
+  background: #F4F4FD;
 }
 
 .all-team{
   display: flex;
-}
-.name-team{
-  margin-right: 24px;
+   gap: 24px;
 }
 
 .all-team li:last-child{
@@ -268,7 +267,7 @@ color: #2E2F42;}
 
 .name-person {
   text-align: center;
-  margin-top: 32px;
+  margin-top: 0px;
   margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
@@ -278,18 +277,22 @@ color: #2E2F42;
 }
 
 .name-team{
-  margin-bottom: 120px;
   background-color: #FFFFFF}
 
 .position { 
   text-align: center;
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+.information{
+  padding: 32px 16px;
+   border-radius: 0px 0px 4px 4px;
 }
 
 /* menu-button portfolio */

@@ -144,14 +144,10 @@ color: #FFFFFF;
 .button-hero {
   display: block;
   margin: auto;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
   width: 169px;
   height: 56px;
-  left: 636px;
-  top: 428px;
   min-width: 169px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);

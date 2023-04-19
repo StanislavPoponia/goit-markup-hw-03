@@ -66,6 +66,7 @@ img{ display: block;}
 
 /* header-info */
 .header-menu {
+  display: block;
   padding: 24px 0;
   text-decoration: none
   
@@ -394,7 +395,6 @@ color: #434455;
 }
 .footer{
 padding: 100px 0;
-  font-family: 'Raleway', sans-serif;
   background: #2E2F42;
 color: #F4F4FD;}
 

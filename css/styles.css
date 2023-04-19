@@ -1,5 +1,10 @@
 :root
 
+p{
+  margin: 0;
+  padding: 0;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -38,6 +43,7 @@ img{ display: block;}
 .header-nav{
   display: flex;
   align-items: center;
+  padding: 25.5px;
 }
 
 .studio { 
@@ -45,8 +51,7 @@ img{ display: block;}
 }
 
 .logo {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin: 0;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -379,11 +384,11 @@ color: #434455;
 /* footer */
 
 .logo-footer{
-  margin: 0;
+  margin-bottom: 16px;
 }
 
 .logo{display: inline-block;
-margin-bottom: 16px;}
+}
 
 .studio-footer {
   color: #F4F4FD;;

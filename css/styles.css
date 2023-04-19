@@ -43,7 +43,7 @@ img{ display: block;}
 .header-nav{
   display: flex;
   align-items: center;
-  padding: 25.5px;
+  padding: 0 15px;
 }
 
 .studio { 
